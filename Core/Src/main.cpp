@@ -122,6 +122,9 @@ int main(void)
 	  // now cell1_mv holds millivolts of cell 1
   }
 
+  uint16_t pack_mv = 0;
+  bq.readPackVoltage(&pack_mv);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
